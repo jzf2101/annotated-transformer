@@ -4,7 +4,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - pytorch
+  - pytorch=0.3.0
   - numpy
   - matplotlib
   - spacy
