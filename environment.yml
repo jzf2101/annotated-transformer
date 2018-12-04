@@ -4,9 +4,10 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - torchtext
   - pytorch
   - numpy
   - matplotlib
   - spacy
   - seaborn
+  - pip:
+    - torchtext
