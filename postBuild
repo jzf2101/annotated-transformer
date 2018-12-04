@@ -1,0 +1,6 @@
+#!/bin/bash
+
+python -m spacy download en
+python -m spacy download de
+wget https://s3.amazonaws.com/opennmt-models/iwslt.pt
+wget https://s3.amazonaws.com/opennmt-models/en-de-model.pt

@@ -1,0 +1,12 @@
+name: base
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - torchtext
+  - pytorch
+  - numpy
+  - matplotlib
+  - spacy
+  - seaborn
